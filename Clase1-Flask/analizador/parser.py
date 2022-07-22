@@ -1,5 +1,5 @@
 from ply.yacc import yacc
-import lexer
+from analizador import lexer
 
 tokens = lexer.tokens
 
@@ -85,6 +85,3 @@ def p_error(p):
 # Build the parser
 parser = yacc()
 
-# Parse an expression
-ast = parser.parse('2 * 3 + 4 * (5 - 4)')
-print(ast)
