@@ -3,6 +3,12 @@ from analizador import lexer
 
 tokens = lexer.tokens
 
+# expression : term MAS term
+#            | term MENOS term
+#            | term
+# term : factor
+
+
 # precedencia
 
 precedence = (
@@ -18,7 +24,7 @@ def p_expression(p):
     """
     # p contiene los elementos de la gramatica
     #
-    # expression : term PLUS term
+    # expression : term MAS term
     #   p[0]     : p[1] p[2] p[3]
     #
     if p[2] == '+':

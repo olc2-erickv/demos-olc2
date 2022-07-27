@@ -2,7 +2,10 @@
 # Declaracion de tokens
 from ply import lex
 
+
+
 tokens = ('MAS', 'MENOS', 'MULTI', 'DIV', 'PARA', 'PARC', 'NUMERO')
+
 
 # Caracteres ignorados
 t_ignore = '[\t ]'
@@ -31,7 +34,7 @@ def t_ignorar_salto(t):
 
 # Manejo de errores lexicos
 def t_error(t):
-    print(f'Caracter no reconocido {t.value[0]!r}')
+    print(f'Caracter no reconocido {t.value[0]!r} en la linea {t.lexer.lineno}')
     t.lexer.skip(1)
 
 
