@@ -1,4 +1,3 @@
-
 class Expresion:
 
     def getTipo(self, driver, ts):
@@ -6,7 +5,6 @@ class Expresion:
         Returna el tipo de la expresión
         """
         pass
-
 
     def getValor(self, driver, ts):
         """

@@ -26,11 +26,11 @@ def getOperador(op) -> Operador:
 def getOperacion(op: Operador):
     if op == Operador.SUMA:
         return lambda num1, num2: num1 + num2
-    if op == Operador.RESTA:
+    elif op == Operador.RESTA:
         return lambda num1, num2: num1 - num2
-    if op == Operador.MULTI:
+    elif op == Operador.MULTI:
         return lambda num1, num2: num1 * num2
-    if op == Operador.DIV:
+    elif op == Operador.DIV:
         return lambda num1, num2: num1 / num2
 
 
@@ -44,6 +44,3 @@ class Operacion(Expresion):
         self.exp2 = exp2
         self.operador = getOperador(operador)
         self.exp1 = exp1
-
-    def hola(self):
-        pass

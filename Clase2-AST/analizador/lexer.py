@@ -2,7 +2,7 @@
 from ply import lex
 
 reservadas = {
-    'ejecutar': 'EJECUTAR'
+    'ejecutar': 'EJECUTAR',
 }
 
 tokens = [
