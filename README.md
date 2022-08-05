@@ -11,3 +11,6 @@ Servidor backend con Flask, que es consumido a través de una interfaz web simpl
 
 ### [Clase 2: Patrón interpreter, atributos sintetizados y AST](./Clase2-AST/)
 Interpretación, generando la estructura de un AST, basada en el patrón de diseño `interpreter`. Tambien se utiliza una interfaz gráfica, que fue hecha con React. 
+
+### [Clase 3: Condicional If y Asignacion de Variables](./Clase3-if-asignacion/)
+Generación y ejecución del condicional if. Creación de las asignaciones y uso de la tabla de símbolos. 

@@ -2,8 +2,7 @@
 Laboratorio Organización de Lenguajes y Compiladores 2<br>
 Sección A
 
-A continuacion se encuentra la continuación del ejemplo visto en la clase anterior. Se realiza la misma interpretación, pero esta vez se genera la estructura de un AST, que puede ser recorrida y está basada en el patrón de diseño `interpreter`. Tambien se utiliza una interfaz gráfica, que fue hecha con React. 
-
+A continuacion se encuentra la continuación del ejemplo visto en la clase anterior. Se realiza la generación y ejecución del condicional if. Creación de las asignaciones y uso de la tabla de símbolos. 
 ## Prerequisitos
 
 ### Python 
